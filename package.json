@@ -1,6 +1,6 @@
 {
   "name": "xm-domain-demo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Verify a concept for sharing code with xm-ui",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,8 +22,7 @@
     "type": "git",
     "url": "https://github.com/kevin-chen278/modules"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/mocha": "^2.2.40",
     "@types/node": "^7.0.12",
