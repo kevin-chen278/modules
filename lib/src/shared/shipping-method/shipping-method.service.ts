@@ -17,5 +17,7 @@ export class ShippingMethodService {
             return item.code === code;
         });
     }
-
+    getShippingMethodOptionsByIndex(index: number): ShippingMethodOptions {
+        return index < this.shippingMethodList.length ? this.shippingMethodList[index] : null;
+    }
 }
