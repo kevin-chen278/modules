@@ -1,0 +1,36 @@
+{
+  "name": "xm-domain-demo",
+  "version": "1.0.0",
+  "description": "Verify a concept for sharing code with xm-ui",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run tsc",
+    "test": "mocha",
+    "test:cov": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "XM-Domain",
+    "xfinity",
+    "xm-ui"
+  ],
+  "author": "XM-DOMAIN-UI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevin-chen278/modules"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.12",
+    "codecov": "^2.1.0",
+    "mocha": "^3.2.0",
+    "nyc": "^10.2.0",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
+  }
+}
